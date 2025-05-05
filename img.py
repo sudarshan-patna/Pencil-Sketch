@@ -2,11 +2,11 @@ import cv2
 import matplotlib.pyplot as plt
 import streamlit as st
 import numpy as np
-img = st.file_uploader('uplode an image',type= ['jpg','jpeg','png'])
+img = st.sidebar.file_uploader('uplode an image',type= ['jpg','jpeg','png'])
 
 
 
-selected_option = st.selectbox('Select an option',['Pencil Sketch','Gray Scale Image'])
+selected_option = st.sidebar.selectbox('Select an option',['Pencil Sketch','Gray Scale Image'])
 st.title('Image Processing App')
 
 if img is not None:
