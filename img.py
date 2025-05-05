@@ -28,3 +28,12 @@ if img is not None:
     elif selected_option =='Pencil Sketch':
         st.image(img_pe, caption= 'Pencil Sketch')
 
+
+hide_menu = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_menu, unsafe_allow_html=True)
