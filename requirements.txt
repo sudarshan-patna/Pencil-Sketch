@@ -1,6 +1,5 @@
 streamlit
 numpy
 matplotlib
-opencv-python
-opencv
+opencv-python-headless
 
